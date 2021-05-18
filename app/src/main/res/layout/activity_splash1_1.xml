@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jorge2">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/darker_gray"
+            android:alpha="0.7"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Resultado"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/darker_gray"
+            android:alpha="0.7"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Récord"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/darker_gray"
+            android:alpha="0.7"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Oponente"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:alpha="0.7"
+            android:background="@android:color/darker_gray"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Locación"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_red_light"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Derrota"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="35-14"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Kamaru Usman"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Abu Dabi"
+            android:textColor="@color/white"
+            android:textSize="13dp"/>
+
+        <ImageView
+            android:id="@+id/imgJorge1"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/abudabi" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Victoria"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="35-13"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Nate Diaz"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Ciudad de Nueva York"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+        <ImageView
+            android:id="@+id/imgjorge2"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/eeuu" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Victoria"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="34-13"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Ben Askren"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Paradise Nevada"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+        <ImageView
+            android:id="@+id/imgjorge3"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/eeuu" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Victoria"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="33-13"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Ben Darren Till"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Londres"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+        <ImageView
+            android:id="@+id/imgjorge4"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/londres" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_red_light"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Derrota"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="32-13"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Stephen Thompson"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="New York City, New York, Estados Unidos"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+        <ImageView
+            android:id="@+id/imgjorge5"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/eeuu" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_red_light"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Derrota"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="32-12"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Demian Maia"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Dallas, Texas, Estados Unidos"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+        <ImageView
+            android:id="@+id/imgjorge6"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/eeuu" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Victoria"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="32-11"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Donald Cerrone"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:alpha="0.6"
+            android:background="@color/black"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Denver, Colorado, Estados Unidos"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+        <ImageView
+            android:id="@+id/imgjorge7"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/eeuu" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Victoria"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="31-11"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Jake Ellenberger"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Las Vegas, Nevada, Estados Unidos"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+        <ImageView
+            android:id="@+id/imgjorge8"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/eeuu" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Victoria"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="30-11"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Ross Pearson"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Atlanta, Georgia, Estados Unidos"
+            android:textColor="@color/white"
+            android:textSize="13dp"/>
+        <ImageView
+            android:id="@+id/imgjorge9"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/eeuu" />
+
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_red_light"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Derrota"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="29-11"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Lorenz Larkin"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Las Vegas, Nevada"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+        <ImageView
+            android:id="@+id/imgjorge10"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/eeuu" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_red_light"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Derrota"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="29-10"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Benson Henderson"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Seúl, Corea del Sur"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+        <ImageView
+            android:id="@+id/imgjorge11"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/seul" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Victoria"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="29-9"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Cezar Ferreira"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Las Vegas, Nevada, Estados Unidos"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+        <ImageView
+            android:id="@+id/imgjorge12"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/eeuu" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_red_light"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Derrota"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="28-9"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Al Iaquinta"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Fairfax, Virginia, Estados Unidos"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+        <ImageView
+            android:id="@+id/imgjorge13"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/eeuu" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Victoria"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="28-8"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="James Krause"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Las Vegas, Nevada, Estados Unidos"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+        <ImageView
+            android:id="@+id/imgjorge14"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/eeuu" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Victoria"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="27-8"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Daron Cruickshank"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="San José, California, Estados Unidos"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+        <ImageView
+            android:id="@+id/imgjorge15"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/eeuu" />
+    </TableRow>
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Victoria"
+            android:textColor="@color/black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="26-8"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Pat Healy"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="112dp"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Orlando, Florida, Estados Unidos"
+            android:textColor="@color/white"
+            android:textSize="13dp" />
+        <ImageView
+            android:id="@+id/imgjorge16"
+            android:layout_width="68dp"
+            android:background="@color/black"
+            android:alpha="0.6"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/eeuu" />
+    </TableRow>
+        </LinearLayout>
+    </ScrollView>
+</TableLayout>

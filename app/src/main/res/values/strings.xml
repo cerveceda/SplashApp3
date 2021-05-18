@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SplashApp</string>
+    <string name="btn_Israel">Israel Adesanya</string>
+    <string name="btn_Jorge">Jorge "Gambread" Masvidal</string>
+    <string name="btn_Recordj">Record en las MMA</string>
+    <string name="btn_Bioj">Biografia</string>
+    <string name="btn_Atras">Atrás</string>
+    <string name="btn_Recordj2">Record en las MMA</string>
+    <string name="btn_Bioj2">Biografia</string>
+    <string name="btn_Atras2">Atrás</string>
+    <string name="btn_Salir">Salir</string>
+</resources>
